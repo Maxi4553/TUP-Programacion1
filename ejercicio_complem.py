@@ -52,11 +52,10 @@ altura = 1.79
 altura *= 4
 altura /= 3
 
-print(altura)
 
 #Ejercicio 15
 nombre_mayus = "MAXIMO"
 nombre_minus = nombre_mayus.lower()
 
 #Ejercicio 16
-
+nombre_2 = nombre_mayus.title()
