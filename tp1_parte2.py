@@ -189,5 +189,5 @@ km_a_recorrer = int(input("Cuantos kilometros recorreran: "))
 
 cant_tanques_llenar = (km_a_recorrer / km_x_litro)/capacitad_tanque
 
-print(f"La cantidad de tanques que necesita para realizar el viaje son: {cant_tanques_llenar}")
+print(f"La cantidad de tanques que necesita para realizar el viaje son:  {cant_tanques_llenar}")
 
