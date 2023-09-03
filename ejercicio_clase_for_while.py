@@ -18,7 +18,7 @@ for i in range(5):
             resultado += letra
     print(f"El mensaje {texto} encriptado es: {resultado} ")
 
-#Ejercicio 2
+##Ejercicio 2
 pares_totales = 0
 impares_totales = 0
 
