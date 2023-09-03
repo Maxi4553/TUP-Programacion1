@@ -1,6 +1,5 @@
 ##Ejercicio 1
 resultado = " "
-mensajes_encriptados = []
 alfabeto = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"  
 corrimiento = int(input("Ingrese la cantidad de lugares a correr las letras: "))
 for i in range(5):
