@@ -1,8 +1,10 @@
-fecha_actual = input("Ingrese la fecha actual(dia/DD/MM): ")
-fecha = fecha_actual.split(" ")
-dias = fecha[0].upper() 
-dia = int(fecha[1]) 
-mes = int(fecha[2]) 
+#####CORREGIR######### 
+
+fecha_actual = input("Ingrese la fecha actual(dia,DD/MM): ")
+
+dias = fecha_actual[:fecha_actual.find(",")].upper()
+dia = int(fecha_actual[-5:fecha_actual.find("/")])
+mes = int(fecha_actual[-2:])
 
 if (dias == "LUNES") or (dias == "MARTES") or (dias == "MIERCOLES") or (dias == "JUEVES") or (dias == "VIERNES"): 
     if (dia >= 1 and dia <= 31): 
