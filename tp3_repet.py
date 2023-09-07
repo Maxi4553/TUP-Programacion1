@@ -56,18 +56,13 @@ for i in range(11):
         mult=i * j
         print(f"{i} x {j} = {mult}")
         
-#Ejercicio 8 CONSULTAR
-number = int(input("Ingrese un número entero:"))
+#Ejercicio 8 
+number = input("Introduzca la altura del triángulo: ")
 
-for i in range(number+1):
+for i in range(1, number+1, 2):
+    for j in range(i, 0, -2):
+        print(j, end="")
     print(" ")
-    for j in range(i,0,-1):
-        if j == 1:
-            print(j, end="")
-        elif (j % 2 != 0):
-            print(j+2, end="")
-        else:
-            print(j+1,end="")       
 #Ejercicio 9
 boolean =True
 while (boolean):
