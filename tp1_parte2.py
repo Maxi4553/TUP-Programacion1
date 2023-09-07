@@ -103,7 +103,7 @@ print(f"PRECIO NETO: {precio_neto}, DESCUENTO: {descuento}, PRECIO TOTAL: {preci
 #Ejercicio 10 
 parcial1 = int(input("Ingrese la calificación del primer parcial: ")) 
 parcial2 = int(input("Ingrese la calificación del segundo parcial: "))
-parcial3 = int(input("Ingrese la calificación del tercer parcial: ")) 
+parcial3 = int(input("Ingrese la calificación del tercerr parcial: ")) 
 
 examen_final = int(input("Ingrese la calificación del examen final: ")) 
 
