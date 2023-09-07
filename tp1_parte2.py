@@ -101,12 +101,19 @@ precio_total = precio_neto - descuento
 print(f"PRECIO NETO: {precio_neto}, DESCUENTO: {descuento}, PRECIO TOTAL: {precio_total}")
 
 #Ejercicio 10 
-parcial_1 = int(input("Ingrese la nota del primer parcial: ")) 
-parcial_2 = int(input("Ingrese la nota del segundo parcial: ")) 
-parcial_3 = int(input("Ingrese la nota del tercer parcial: ")) 
+parcial1 = int(input("Ingrese la calificación del primer parcial: ")) 
+parcial2 = int(input("Ingrese la calificación del segundo parcial: "))
+parcial3 = int(input("Ingrese la calificación del tercer parcial: ")) 
 
-examen_final = int(input("Ingrese la nota del examen final: ")) 
-trabajo_final = int(input("Ingrese la nota del trabajo final: ")) 
+examen_final = int(input("Ingrese la calificación del examen final: ")) 
+
+trabajo_final = int(input("Ingrese la calificación del trabajo final: ")) 
+
+promedio_parcial = (parcial1 + parcial2 + parcial3) / 3 
+
+# ​calificacion_final = (promedio_parcial * 0.55) + (examen_final * 0.30) + (trabajo_final * 0.15) 
+
+# ​print("Su Calificacion total es: "+str(calificacion_final))
 
 #Ejercicio 11
 num1 =  int(input("Ingrese un número: "))
@@ -178,9 +185,11 @@ ano_nacim = input("Ingrese el año el que nacio: ")
 print(f"Su cumpleaños es el: {dia_nacim}/{mes_nacim}/{ano_nacim}")
 
 #Ejercicio 20
-fecha_nacim = input("Ingrese su fech de nacimiento: ")
-
-print(f"Su fecha de nacimiento es: {fecha_nacim} ")
+fecha_nacim = input("Ingrese su fecha de nacimiento (DDMMAAAA): ")
+dia = fecha_nacim[0:2]
+mes = fecha_nacim[2:5]
+anio = fecha_nacim[5:]
+print(f"Su fecha de nacimiento es: {dia}/{mes}/{anio} ")
 
 #Ejercicio 21
 km_x_litro = int(input("Ingrese cuantos kilometros puede realizar por litro de combustible: "))
