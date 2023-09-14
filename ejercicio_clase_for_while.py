@@ -1,21 +1,21 @@
-##Ejercicio 1
-resultado = " "
-alfabeto = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"  
-corrimiento = int(input("Ingrese la cantidad de lugares a correr las letras: "))
-for i in range(5):
-    texto =input("Ingrese el mensaje a encriptar: ")
-    resultado = " "
-    for letra in texto:
-        if letra.isalpha():
-            indice = alfabeto.index(letra.upper())
-            nuevo_indice = (indice + corrimiento) % 27
-            nueva_letra = alfabeto[nuevo_indice]
-            if letra.islower():
-                nueva_letra = nueva_letra.lower()
-            resultado += nueva_letra
-        else:
-            resultado += letra
-    print(f"El mensaje {texto} encriptado es: {resultado} ")
+# ##Ejercicio 1
+# resultado = " "
+# alfabeto = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"  
+# corrimiento = int(input("Ingrese la cantidad de lugares a correr las letras: "))
+# for i in range(5):
+#     texto =input("Ingrese el mensaje a encriptar: ")
+#     resultado = " "
+#     for letra in texto:
+#         if letra.isalpha():
+#             indice = alfabeto.index(letra.upper())
+#             nuevo_indice = (indice + corrimiento) % 27
+#             nueva_letra = alfabeto[nuevo_indice]
+#             if letra.islower():
+#                 nueva_letra = nueva_letra.lower()
+#             resultado += nueva_letra
+#         else:
+#             resultado += letra
+#     print(f"El mensaje {texto} encriptado es: {resultado} ")
 
 ##Ejercicio 2
 pares_totales = 0
@@ -36,7 +36,7 @@ while True:
             pares += 1
         else:
             impares += 1
-            numero //= 10
+        numero //= 10
 
     
     print(f"Dígitos pares: {pares}, Dígitos impares: {impares}")
