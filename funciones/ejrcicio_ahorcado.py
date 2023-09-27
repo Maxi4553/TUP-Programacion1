@@ -8,7 +8,6 @@ def game(word):
     print("Bienvenido al ahorcado, la tematica es futbolistas.")
     attempt = 0
     long_word = len(word)
-    acum_letra = ""
     while(True):
         if attempt <= 6:
             lether = input("Ingrese una letra: ").upper()
