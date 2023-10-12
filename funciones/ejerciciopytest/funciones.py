@@ -74,5 +74,16 @@ def login(user,contra):
                 attempts += 1
                 return ("Vuelva a intentarlo, contraseña incorrecta")
 
-def separar_frase(phrase):
+#def separar_frase(phrase):
     
+def num_primo(num):
+    divisores = 0
+    for i in range(1,num+1):
+        if (num % i == 0 ):
+            divisores += 1
+        else:
+            continue
+    if (divisores == 2) or (num == 2):
+        return("El número ingresado es primo")
+    else:
+        return("El número ingresado no es primo")

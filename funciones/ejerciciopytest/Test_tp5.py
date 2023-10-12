@@ -101,3 +101,14 @@ from funciones import *
 #     assert login(usuario, contra) == res
 
 ##Ejercicio 10
+
+##Ejercicio 14
+# @pytest.mark.parametrize("num ,res",[
+#     (2,"El número ingresado es primo"),
+#     (4,"El número ingresado no es primo"),
+#     (7,"El número ingresado es primo"),
+#     (12,"El número ingresado no es primo"),
+#     (29,"El número ingresado es primo"),
+# ])
+# def test_primo(num,res):
+#     assert num_primo(num) == res

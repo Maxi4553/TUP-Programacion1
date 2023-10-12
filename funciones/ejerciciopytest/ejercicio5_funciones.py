@@ -62,6 +62,15 @@ from funciones import *
 # print(login(user,contra))
 
 ##Ejercicio 10
+##Ejercicio 11
+##Ejercicio 12
 phrase = input("Ingrese una frase: ")
 
-separar_frase(phrase)
+#separar_frase(phrase)
+
+##Ejercicio 14
+# num = int(input("Ingrese un número entero: "))
+
+# print(num_primo(num))
+
+##Ejercicio 15
